@@ -182,9 +182,9 @@ if __name__=="__main__":
 
     batch_size=16
     n_epochs=3
-    trainset="conll03/train.txt"
-    validset="conll03/dev.txt"
-    testset="conll03/test.txt"
+    trainset="data/train.txt"
+    validset="data/dev.txt"
+    testset="data/test.txt"
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
